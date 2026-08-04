@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meegada Sai Sindhuja | Mechanical Design Portfolio</title>
+<style>
+:root{--bg:#0b0d10;--panel:#12161b;--text:#f2f4f7;--muted:#a7afb9;--line:#252b33;--accent:#dce7f5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,13,16,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.08em}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:var(--text)}
+.hero{padding:105px 0 85px;border-bottom:1px solid var(--line)}.eyebrow{text-transform:uppercase;letter-spacing:.18em;color:var(--muted);font-size:.78rem}
+h1{font-size:clamp(3.2rem,9vw,7rem);line-height:.95;margin:18px 0 24px;letter-spacing:-.06em}.hero p{max-width:650px;color:var(--muted);font-size:1.12rem}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{border:1px solid var(--line);padding:11px 17px;border-radius:999px}.btn.primary{background:var(--text);color:#0b0d10;border-color:var(--text)}
+section{padding:82px 0;border-bottom:1px solid var(--line)}h2{font-size:2rem;margin:0 0 12px;letter-spacing:-.03em}.section-intro{color:var(--muted);max-width:650px;margin-bottom:42px}
+.project{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:start;margin:55px 0 85px}.project:last-child{margin-bottom:0}.visual{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden}.visual img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}.visual img.contain{object-fit:contain;padding:18px}.meta{color:var(--muted);font-size:.86rem;text-transform:uppercase;letter-spacing:.08em}.project h3{font-size:2rem;line-height:1.1;margin:10px 0 16px}.project p{color:var(--muted)}.tags{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.tag{border:1px solid var(--line);padding:5px 10px;border-radius:999px;color:var(--muted);font-size:.8rem}.links{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.smallbtn{border:1px solid var(--line);padding:9px 13px;border-radius:8px;font-size:.9rem}.smallbtn:hover{background:var(--panel)}
+.video{width:100%;border-radius:12px;margin-top:18px;border:1px solid var(--line);background:#000}.note{font-size:.82rem;color:var(--muted);margin-top:8px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.skill{padding:24px;background:var(--panel);border:1px solid var(--line);border-radius:14px}.skill strong{display:block;margin-bottom:8px}.skill span{color:var(--muted)}
+footer{padding:55px 0;color:var(--muted)}footer strong{color:var(--text)}
+@media(max-width:760px){.navlinks{display:none}.hero{padding:75px 0}.project{grid-template-columns:1fr;gap:25px}.skills{grid-template-columns:1fr}section{padding:60px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><div class="brand">MEEGADA SAI SINDHUJA</div><div class="navlinks"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Mechanical Engineering · IIT Dharwad</div>
+<h1>Mechanical Design.<br>CAD. Engineering.</h1>
+<p>Mechanical Engineering undergraduate interested in mechanical design, CAD modeling, practical engineering, and automotive and EV applications.</p>
+<div class="buttons"><a class="btn primary" href="#projects">View Projects</a><a class="btn" href="#contact">Contact</a></div>
+</div></header>
+
+<section id="projects"><div class="wrap">
+<h2>Selected Projects</h2>
+<p class="section-intro">A compact showcase of CAD modeling, reverse engineering, mechanism design, motion studies, and real-world engineering work.</p>
+
+<article class="project">
+<div class="visual"><img src="lathe-main.png" alt="Lathe machine CAD assembly"></div>
+<div>
+<div class="meta">01 · Reverse Engineering</div><h3>Lathe Machine Reverse Engineering</h3>
+<p>Reverse-engineered a real lathe machine by taking dimensional measurements of its physical components and recreating the machine as a detailed 3D CAD assembly in SolidWorks.</p>
+<div class="tags"><span class="tag">SolidWorks</span><span class="tag">Reverse Engineering</span><span class="tag">CAD</span><span class="tag">Assembly</span><span class="tag">Motion Study</span></div>
+<p><strong>Process:</strong> Physical measurement → Component modeling → Assembly → Exploded view → Motion study</p>
+<div class="links"><a class="smallbtn" href="lathe-technical.png" target="_blank">Technical View</a><a class="smallbtn" href="lathe-assembly.pdf" target="_blank">Assembly Drawing</a><a class="smallbtn" href="lathe-exploded.pdf" target="_blank">Exploded View</a></div>
+<p class="note"><video class="video" controls preload="metadata"><source src="spindle02.mp4" type="video/mp4">Your browser does not support video playback.</video></p>
+</div></article>
+
+<article class="project">
+<div class="visual"><img src="engine-main.png" alt="Four-stroke engine CAD assembly"></div>
+<div>
+<div class="meta">02 · CAD & Motion</div><h3>4-Stroke Engine Assembly</h3>
+<p>Designed and modeled a 4-stroke engine assembly in SolidWorks, incorporating major mechanical components and developing a motion study to demonstrate the coordinated movement of the piston–connecting rod–crankshaft mechanism.</p>
+<div class="tags"><span class="tag">SolidWorks</span><span class="tag">3D CAD</span><span class="tag">Assembly Design</span><span class="tag">Motion Study</span></div>
+<div class="links"><a class="smallbtn" href="engine-exploded.png" target="_blank">Exploded View</a></div>
+<video class="video" controls preload="metadata"><source src="engine-motion.mp4" type="video/mp4">Your browser does not support video playback.</video>
+</div></article>
+
+<article class="project">
+<div class="visual"><img src="Can.png" alt="Automatic can crushing mechanism drawing"></div>
+<div>
+<div class="meta">03 · Mechanism Design</div><h3>Automatic Can Crushing Mechanism</h3>
+<p>Designed a slider-crank based automatic can-crushing mechanism, focusing on mechanism geometry, force calculations, and functional operation. Developed the assembly and a motion study to demonstrate the working cycle.</p>
+<div class="tags"><span class="tag">Mechanism Design</span><span class="tag">SolidWorks</span><span class="tag">Force Analysis</span><span class="tag">Motion Study</span></div>
+<p><strong>Process:</strong> Mechanism concept → Geometry → Assembly → Force calculations → Motion study</p>
+<video class="video" controls preload="metadata"><source src="can-crusher-motion.mp4" type="video/mp4">Your browser does not support video playback.</video>
+</div></article>
+
+<article class="project">
+<div class="visual"><img src="acoustic_liners.png" alt="Acoustic Liners for Engine"></div>
+<div>
+<div class="meta">04 · Product Design</div><h3>Acoustic Liners for Engine</h3>
+<p>Designed and fabricated acoustic liner structures for engine applications using additive manufacturing, exploring different geometric configurations and materials for acoustic performance. Developed perforated liner structures with hexagonal internal geometries and evaluated their acoustic characteristics using an impedance tube.</p>
+<div class="tags"><span class="tag">Additive Manufacturing</span><span class="tag">CAD Design</span><span class="tag">Fabrication</span><span class="tag">Experimental Testing</span></div>
+<p><strong>Process:</strong>CAD Design → Additive Manufacturing → Fabrication → Impedance Tube Testing → Performance Evaluation</p>
+<div class="links"><a class="smallbtn" href="Acoustic liners.pdf" target="_blank">Presentation</a></div>
+<div class="visual"><img src="Acoustic.png" type="png" alt="Acoustic Liners for Engine"></div>
+</div></article>
+
+<article class="project">
+<div class="visual" style="min-height:280px;display:grid;place-items:center;padding:35px"><div style="text-align:center"><div class="meta">05 · Research Intern</div><h3 style="margin-top:10px">EV Battery Shaker Table</h3><p style="margin:0;color:var(--muted)">Mechanical design and CAD development for simulating road-induced vibrations on EV battery systems under faculty guidance at IIT Bombay.</p></div></div>
+<div>
+<div class="meta">EV Applications · R&D</div><h3>Development of a Shaker Table for EV Battery Vibration Testing</h3>
+<p>Worked on the mechanical design and CAD development of a shaker table for EV battery vibration testing, with focus on actuator selection and vibration analysis.</p>
+<div class="tags"><span class="tag">Mechanical Design</span><span class="tag">CAD</span><span class="tag">Vibration Testing</span><span class="tag">EV Systems</span></div>
+</div></article>
+</div></section>
+
+<section id="skills"><div class="wrap"><h2>Skills</h2><p class="section-intro">Tools and areas relevant to mechanical design and engineering projects.</p>
+<div class="skills">
+<div class="skill"><strong>CAD & Design</strong><span>SolidWorks · 3D CAD Modeling · Assembly Design · Mechanical Drawings · Reverse Engineering</span></div>
+<div class="skill"><strong>Simulation & Analysis</strong><span>COMSOL Multiphysics (Beginner) · Basic Mechanical Analysis · Vibration Analysis</span></div>
+<div class="skill"><strong>Manufacturing & Programming</strong><span>Lathe · Milling · Manufacturing Processes · Python (Basic) · MATLAB (Basic)</span></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><h2>Let's Connect</h2><p class="section-intro">Interested in mechanical design, CAD, automotive systems, and practical engineering applications.</p>
+<div class="buttons"><a class="btn primary" href="mailto:me23bt027@iitdh.ac.in">Email Me</a><a class="btn" href="tel:+919573127125">Call</a></div>
+</div></section>
+
+<footer><div class="wrap"><strong>Meegada Sai Sindhuja</strong><br>Mechanical Engineering · IIT Dharwad<br><br>me23bt027@iitdh.ac.in · +91 9573127125</div></footer>
+</body>
+</html>
